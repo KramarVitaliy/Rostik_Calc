@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    background-color: aqua;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator button{
+    width: 200px;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.calculator input {
+    width: 200px;
+    font-size: 36px;
+    margin: 20px;
+    text-align: center;
+}
+
+.calculator div {
+    font-size: 24px;
+    margin: 10px;
+    text-align: center;
+}

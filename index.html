@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <button className="calculator-answer" id="calcilator-start" onclick="Calculator.startGame();">Почати!</button>
+        <div type="text" name="number1" id="number1"> </div> 
+        <input type="number" name="answer" id="answer"> 
+        <button className="calculator-answer" id="calcilator-answer" onclick="Calculator.getAnswer();">Відповідаю!</button>
+        <div type="text" id="true__answer"></div>
+        <div id="congratulation"></div>
+                       
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
